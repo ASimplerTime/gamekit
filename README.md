@@ -4,6 +4,7 @@
 
 This is the official Github Repo of Project Baja.
 
+project-baja: a game engine for gamers, a game for game devs
 Copyright (c) 2015 Project Baja Core Developers
 
 This program is free software: you can redistribute it and/or modify
