@@ -4,12 +4,6 @@
 
 This is the official Github Repo of Project Baja.
 
-The version of project-baja on this branch is:
-
-- **Game**: 2015.1.11.0000
-- **Shell**: 2015.1.11.0001:dev:feature.shell
-- **Editor**: 2015.1.11.0000
-
 project-baja: a game engine for gamers, a game for game devs
 Copyright (c) 2015 Project Baja Core Developers
 
@@ -27,6 +21,11 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
+The version of project-baja on this branch is:
+
+- **Game**: 2015.1.11.0000
+- **Shell**: 2015.1.11.0001:dev:feature.shell
+- **Editor**: 2015.1.11.0000
 
 ### Core Project Baja Developers
 
