@@ -22,9 +22,27 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <readline/readline.h>
 #include <readline/history.h>
 
+// command functions
+
+int cmd_help __P ((char *));
+
 // define a command as a struct
 
 typedef struct command {
-  char *name,
-  char *description
+  char *name,             // the command name
+  char *description,
+  char *full_doc,
+  rl_icpfunc_t *function
 } cmd;
+
+// list of commands
+
+cmd commands[] = {
+  {"help", "Gives a list of commands or the full description of a specific command.", "", cmd_help}
+};
+
+// helper functions
+
+cmd find_cmd (){
+  
+}
